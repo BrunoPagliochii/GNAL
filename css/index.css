@@ -1,0 +1,127 @@
+/*Import de fontes*/
+@font-face {
+    font-family: 'agrandir';
+    src: url('../fontes/Agrandir/Agrandir-Narrow.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Ruda-Regular';
+    src: url('../fontes/ruda-regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Ruda-Black';
+    src: url('../fontes/ruda-black.ttf') format('truetype');
+}
+
+
+/* Main Corpo do Site*/
+.corpo-index {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'agrandir';
+    height: 691px;
+    margin-top: 50px;
+}
+
+/* Div que controla os icones de serviço de cima*/
+.holder-cima {
+    display: flex;
+    justify-content: center;
+}
+
+/* Ajuste de cada icone de serviço de cima*/
+.imagem-cima {
+  margin: 30px;
+  position: relative;
+  text-align: center;
+}
+
+/* Ajuste entre os icones de serviço de cima*/
+.imagem-cima::after {    
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+  }
+
+/* Div que controla os icones de serviço de baixo*/
+.holder-baixo {
+    display: flex;
+    justify-content: center;
+}
+
+/* Ajuste de cada icone de serviço de baixo*/
+.imagem-baixo {
+    margin: 15px;
+    position: relative;
+    text-align: center;
+}
+
+/* Ajuste entre os icones de serviço de baixo*/
+.imagem-baixo::after {    
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+}
+
+/*main do formulario de servicos*/
+form-dav {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+    width: 1280px;
+  }
+
+  /*titulo de cada formulario de serviço*/
+.dav h3{
+    margin: 0;
+    font-family: 'agrandir';
+}
+
+/*distancia do formulario para o header*/
+.formulario-dav{
+    padding-top: 50px;
+    
+}
+
+/*dav de cada opçao do formulario*/
+.dav{
+    padding-left: 131px;
+    width: 1573px;
+}
+
+.formulario-dav input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-dav input[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.envia-dav {
+    padding-left: 108px;
+    margin: 20px;
+    width: 1573px;
+}
+
+main.form-dav {
+    height: 741px;
+}
+

@@ -1,0 +1,14 @@
+.estrelas input[type=radio]{
+	display: none;
+}.estrelas label i.fa:before{
+	content: '\f005';
+	color: #FC0;
+}.estrelas  input[type=radio]:checked  ~ label i.fa:before{
+	color: #CCC;
+}.estrelas  input[type=submit]{
+	background-color: #F7F7F7;
+    border: none;
+    color: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
